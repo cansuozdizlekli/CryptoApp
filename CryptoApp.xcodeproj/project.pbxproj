@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D20B77B2BE0D17B00CEF420 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D20B77A2BE0D17B00CEF420 /* Color.swift */; };
 		8D99D9132BDFF30400D0115F /* CryptoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D99D9122BDFF30400D0115F /* CryptoAppApp.swift */; };
 		8D99D9152BDFF30400D0115F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D99D9142BDFF30400D0115F /* ContentView.swift */; };
 		8D99D9172BDFF30600D0115F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D99D9162BDFF30600D0115F /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D20B77A2BE0D17B00CEF420 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		8D99D90F2BDFF30400D0115F /* CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D99D9122BDFF30400D0115F /* CryptoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppApp.swift; sourceTree = "<group>"; };
 		8D99D9142BDFF30400D0115F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D20B7782BE0D15300CEF420 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8D20B77A2BE0D17B00CEF420 /* Color.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8D20B7792BE0D16400CEF420 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		8D99D9062BDFF30400D0115F = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +68,8 @@
 		8D99D9112BDFF30400D0115F /* CryptoApp */ = {
 			isa = PBXGroup;
 			children = (
+				8D20B7782BE0D15300CEF420 /* Extension */,
+				8D20B7792BE0D16400CEF420 /* New Group */,
 				8D99D9122BDFF30400D0115F /* CryptoAppApp.swift */,
 				8D99D9142BDFF30400D0115F /* ContentView.swift */,
 				8D99D9162BDFF30600D0115F /* Assets.xcassets */,
@@ -139,6 +158,7 @@
 			files = (
 				8D99D9152BDFF30400D0115F /* ContentView.swift in Sources */,
 				8D99D9132BDFF30400D0115F /* CryptoAppApp.swift in Sources */,
+				8D20B77B2BE0D17B00CEF420 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +295,12 @@
 				DEVELOPMENT_TEAM = 2U638ZS235;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Crypto App";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +325,12 @@
 				DEVELOPMENT_TEAM = 2U638ZS235;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Crypto App";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
