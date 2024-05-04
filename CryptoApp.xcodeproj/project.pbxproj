@@ -22,6 +22,9 @@
 		8D99D9152BDFF30400D0115F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D99D9142BDFF30400D0115F /* ContentView.swift */; };
 		8D99D9172BDFF30600D0115F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D99D9162BDFF30600D0115F /* Assets.xcassets */; };
 		8D99D91A2BDFF30600D0115F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D99D9192BDFF30600D0115F /* Preview Assets.xcassets */; };
+		8DDC731A2BE6613500B6AD77 /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDC73192BE6613500B6AD77 /* CoinImageView.swift */; };
+		8DDC731C2BE6651800B6AD77 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDC731B2BE6651800B6AD77 /* CoinImageService.swift */; };
+		8DDC731E2BE6668000B6AD77 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDC731D2BE6668000B6AD77 /* CoinImageViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +44,9 @@
 		8D99D9142BDFF30400D0115F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8D99D9162BDFF30600D0115F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D99D9192BDFF30600D0115F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DDC73192BE6613500B6AD77 /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
+		8DDC731B2BE6651800B6AD77 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
+		8DDC731D2BE6668000B6AD77 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				8D15AEFD2BE50F0100FE1432 /* CoinDataService.swift */,
+				8DDC731B2BE6651800B6AD77 /* CoinImageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -118,6 +125,7 @@
 		8D20B7812BE0E0C500CEF420 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				8DDC73182BE6611E00B6AD77 /* CoinImage */,
 				8D20B7822BE0E0CC00CEF420 /* CircleButton */,
 			);
 			path = Components;
@@ -178,6 +186,15 @@
 				8D99D9192BDFF30600D0115F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DDC73182BE6611E00B6AD77 /* CoinImage */ = {
+			isa = PBXGroup;
+			children = (
+				8DDC73192BE6613500B6AD77 /* CoinImageView.swift */,
+				8DDC731D2BE6668000B6AD77 /* CoinImageViewModel.swift */,
+			);
+			path = CoinImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,13 +272,16 @@
 				8D1E87F82BE37893009B7CC7 /* HomeViewModel.swift in Sources */,
 				8D15AF012BE5313A00FE1432 /* NetworkManager.swift in Sources */,
 				8D99D9152BDFF30400D0115F /* ContentView.swift in Sources */,
+				8DDC731A2BE6613500B6AD77 /* CoinImageView.swift in Sources */,
 				8D20B7802BE0D95900CEF420 /* HomeView.swift in Sources */,
 				8D99D9132BDFF30400D0115F /* CryptoAppApp.swift in Sources */,
 				8D20B7842BE0E0DD00CEF420 /* CircleButtonView.swift in Sources */,
 				8D20B77B2BE0D17B00CEF420 /* Color.swift in Sources */,
 				8D20B7862BE0EA9000CEF420 /* CircleButtonAnimationView.swift in Sources */,
+				8DDC731E2BE6668000B6AD77 /* CoinImageViewModel.swift in Sources */,
 				8D1E87F42BE17DB9009B7CC7 /* PreviewProvider.swift in Sources */,
 				8D1E87F62BE18AEC009B7CC7 /* Double.swift in Sources */,
+				8DDC731C2BE6651800B6AD77 /* CoinImageService.swift in Sources */,
 				8D20B7892BE0F9F000CEF420 /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
