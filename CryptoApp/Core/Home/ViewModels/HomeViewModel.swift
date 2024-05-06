@@ -9,6 +9,14 @@ import Foundation
 import Combine
 
 class HomeViewModel : ObservableObject {
+    
+    @Published var statistics : [StatisticModel] = [
+        StatisticModel(title: "Title", value: "Value", percentageChange: 1),
+        StatisticModel(title: "Title", value: "Value"),
+        StatisticModel(title: "Title", value: "Value", percentageChange: 1),
+        StatisticModel(title: "Title", value: "Value", percentageChange: -7)
+    ]
+    
     @Published var allCoins : [CoinModel] = []
     @Published var portfolioCoins : [CoinModel] = []
     
@@ -54,4 +62,6 @@ class HomeViewModel : ObservableObject {
             coin.symbol.lowercased().contains(lowercasedText)
         }
     }
+    
+    
 }
